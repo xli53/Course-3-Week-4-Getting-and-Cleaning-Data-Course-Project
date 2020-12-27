@@ -40,5 +40,5 @@ The run_analysis.R script performs the data preparation and followed by the foll
 * Activity names (activityLables) is merged with mean_and_std_set by "activityId". A new column called activityType is added in the end of mean_and_std_set. The new data set is called with_activityNames_set.
 
 #### 7. Create a second, independent tidy data set with the average of each variable for each activity and each subject
-* tidy_set2 (180 rows, 82 columns) is created by sumarizing Tiwith_activityNames taking the means of each variable for each activity and each subject, after groupped by subject and activity using aggregate().
+* tidy_set2 (180 rows, 82 columns) is created by sumarizing with_activityNames_set taking the means of each variable for each activity and each subject, after groupped by subjectId and activityId using aggregate().
 * Export tidy_set2 into tidy_set2.txt file.
