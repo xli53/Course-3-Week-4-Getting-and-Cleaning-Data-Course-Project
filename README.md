@@ -26,8 +26,6 @@ The goal of this project is to prepare tidy data that can be used for later anal
 How to run:
 To make this script run just download the dataset and the run_analysis.R in your R working directory. One time ran, the script automates all tasks.
 
-Authors
-Xiao Li
 
 
 
